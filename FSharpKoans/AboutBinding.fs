@@ -186,5 +186,5 @@ module ``02: About Binding`` =
     let ``12 Or patterns succeed if any pattern matches`` () =
         let a | a = 101
         let 7 | 13 | 2 = 3 + 10
-        let 'x' | _ | 'p' = 'P'
+        let 'x' | ' ' | 'p' = 'P'
         ()
